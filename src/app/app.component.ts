@@ -10,6 +10,11 @@ import * as AOS from 'aos';
 export class AppComponent implements OnInit {
 
   public ngOnInit(): void {
-    AOS.init();
+    AOS.init({
+      duration: 500,
+      easing: 'ease-in-out-cubic',
+      offset: 100,
+      mirror: true
+    });
   }
 }

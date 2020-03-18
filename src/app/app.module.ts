@@ -9,7 +9,6 @@ import { FooterComponent } from './components/footer/footer.component';
 
 import { HomeComponent } from './sections/home/home.component';
 import { ProfileComponent } from './sections/profile/profile.component';
-import { MottosComponent } from './sections/mottos/mottos.component';
 import { ExperienceComponent } from './sections/experience/experience.component';
 import { SkillsComponent } from './sections/skills/skills.component';
 import { EducationComponent } from './sections/education/education.component';
@@ -22,7 +21,6 @@ import { ContactComponent } from './sections/contact/contact.component';
     FooterComponent,
     HomeComponent,
     ProfileComponent,
-    MottosComponent,
     ExperienceComponent,
     SkillsComponent,
     EducationComponent,

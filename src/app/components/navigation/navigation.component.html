@@ -1,1 +1,40 @@
-<p>navigation works!</p>
+<div id="navigation">
+  <div class="navigation-overlay" id="navigation-overlay"></div>
+
+  <button mat-icon-button class="navigation-button" id="navigation-button" (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <div class="navigation-container" id="navigation-container">
+    <div class="navigation-item" id="navigation-item-home">
+      <div class="navigation-item-anchor" (click)="scrollTo('home')">
+        <mat-icon>home</mat-icon>
+      </div>
+    </div>
+    <div class="navigation-item" id="navigation-item-profile">
+      <div class="navigation-item-anchor" (click)="scrollTo('profile')">
+        <mat-icon>person</mat-icon>
+      </div>
+    </div>
+    <div class="navigation-item" id="navigation-item-experience">
+      <div class="navigation-item-anchor" (click)="scrollTo('experience')">
+        <mat-icon>work</mat-icon>
+      </div>
+    </div>
+    <div class="navigation-item" id="navigation-item-skills">
+      <div class="navigation-item-anchor" (click)="scrollTo('skills')">
+        <mat-icon>phonelink</mat-icon>
+      </div>
+    </div>
+    <div class="navigation-item" id="navigation-item-education">
+      <div class="navigation-item-anchor" (click)="scrollTo('education')">
+        <mat-icon>school</mat-icon>
+      </div>
+    </div>
+    <div class="navigation-item" id="navigation-item-contact">
+      <div class="navigation-item-anchor" (click)="scrollTo('contact')">
+        <mat-icon>email</mat-icon>
+      </div>
+    </div>
+  </div>
+</div>

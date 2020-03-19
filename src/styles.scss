@@ -18,3 +18,21 @@ body {
 *:after {
   box-sizing: border-box;
 }
+
+.font {
+  &.white {
+    color: white;
+  }
+
+  &.extra-large {
+    font-size: 80px;
+    line-height: 100px;
+
+    font-weight: bold;
+  }
+
+  &.medium {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
